@@ -1,0 +1,85 @@
+#container-center{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  place-content: center;
+  place-items: center;
+  flex-grow: 1;
+}
+
+/* Estilo do container principal e centralizado */
+.main-container{ 
+  max-width: 80%;
+  height: 80vh;
+  margin: 100px auto;
+  border: 1px var(--border) solid;
+  border-radius: 25px;
+  background-color: #1c1f2b;
+}
+
+
+/* Estilo da imagem ao centro do elemento */
+.img-container{
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilo do formulário para login */
+.form-login{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 50%;
+  margin: 10px auto;
+  border: 1px var(--border) solid;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #16171d;
+}
+
+/* Estilo do Emoji de texto de gato */
+.cat-text{
+  background-color: #2d2f3b;
+  border: 1px #ffffff solid;
+  padding: 2px;
+  width: 8%;
+  border-radius: 25px;
+}
+
+/* Estilo do botão para login */
+.btn-login {
+  border-radius: 10px;
+  border: var(--border);
+  width: 20%;
+  margin: 0 auto;
+}
+
+.form-login input {
+  width: 60%;
+  margin: 0 auto;
+
+}
+
+h1{
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  margin: 20px auto;
+}
+
+h4 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+input {
+  text-align: center;
+  padding: 8px;
+  border-radius: 10px;
+  border: var(--border);
+}
